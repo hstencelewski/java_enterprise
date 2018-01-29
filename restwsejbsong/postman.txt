@@ -1,0 +1,61 @@
+http://localhost:8080/restwsejbdemo/api/factory
+
+{
+
+  "id": null,
+  
+  "name": "Pictures"
+
+}
+
+http://localhost:8080/restwsejbdemo/api/artist
+
+{
+
+  "id": null,
+
+  "name": "Slash"
+
+}
+
+http://localhost:8080/restwsejbdemo/api/code
+
+{
+
+  "id": null,
+
+  "code": "12yy12"
+
+}
+
+http://localhost:8080/restwsejbdemo/api/song
+
+{
+
+  "id": null,
+
+  "amount": 1,
+
+  "songname": "enter sandman",
+
+  "bandname": "metallica",
+
+  "factory": {
+
+    "id": 1
+  
+},
+
+  "artist": {
+
+    "id": 1
+  
+},
+
+   "code": {
+
+    "id": 1
+
+  }
+
+}
