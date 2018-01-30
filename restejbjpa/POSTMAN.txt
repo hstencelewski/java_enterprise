@@ -1,0 +1,70 @@
+http://localhost:8080/restejbjpa/api/serial
+
+{
+  "id": null,
+  "serial": "qwert"
+}
+{
+  "id": null,
+  "serial": "asdfg"
+}
+
+http://localhost:8080/restejbjpa/api/genre
+
+{
+  "id": null,
+  "name": "Metal
+}
+
+{
+  "id": null,
+  "name": "Pop"
+}
+
+http://localhost:8080/restejbjpa/api/factory
+
+{
+  "id": null,
+  "name": "Pictures"
+}
+
+{
+  "id": null,
+  "name": "Scarlet"
+}
+
+
+http://localhost:8080/restejbjpa/api/song
+
+{
+  "id": null,
+  "yor": 1991,
+  "songname": "enter sandman",
+  "bandname": "metallica",
+  "factory": {
+    "name": "Pictures"
+  },
+  "genre": {
+    "name": "Metal"
+  },
+   "serial": {
+    "serial": "qwert"
+  },
+  "price":125
+}
+{
+  "id": null,
+  "yor": 1991,
+  "songname": "black and white",
+  "bandname": "michael jackson",
+  "factory": {
+    "name": "Scarlet"
+  },
+  "genre": {
+    "name": "Pop"
+  },
+   "serial": {
+    "serial": "asdfg"
+  },
+  "price":172
+}
